@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bfddbf26-3430-42b6-84af-35b86da648d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board">
+      <UniqueIdentifier>{b9d74d13-075e-4652-8c59-04c927202522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{19573a71-2dce-4aae-9ef5-68abeb0529a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsoleHepler">
+      <UniqueIdentifier>{c8f4e71e-572e-4550-ad5c-a134fdec15cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{ca13d514-a1e3-4d21-b6fb-4029d653d493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Key">
+      <UniqueIdentifier>{50e74cb1-6431-415c-9327-b994efe1acf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Information">
+      <UniqueIdentifier>{6841e4b1-767b-4b79-b360-f2d8083525ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu">
+      <UniqueIdentifier>{f112e54f-5758-441e-bba6-8dce7d13e118}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleHelper.cpp">
+      <Filter>ConsoleHepler</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Information.cpp">
+      <Filter>Information</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleHelper.h">
+      <Filter>ConsoleHepler</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Information.h">
+      <Filter>Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
